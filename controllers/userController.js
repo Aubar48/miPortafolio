@@ -7,9 +7,10 @@ module.exports = {
         })
     },
     profile: (req, res) => {
-       const id = req.params.id;
-       const user = users.find(user => user.id === +id)
-        return res.render('profile',{
+
+        const id = req.params.id;
+        const user = users.find(user => user.id === +id)
+        return res.render('profile', {
             user
         })
     }

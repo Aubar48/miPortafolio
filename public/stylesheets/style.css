@@ -1,125 +1,141 @@
-*, ::before, ::after {
-    box-sizing: inherit;
+*,
+::before,
+::after {
+  box-sizing: inherit;
 }
-.mvc-top, .mvc-bottom {
-    position: fixed;
-    width: 100%;
-    z-index: 1;
+.mvc-top,
+.mvc-bottom {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
 }
 .mvc-bar {
-    width: 100%;
-    overflow: hidden;
+  width: 100%;
+  overflow: hidden;
 }
-body,h1,h2,h3,h4,h5,h6 {
-    font-family: "Lato", sans-serif;
-    font-weight: 400;
-    margin: 10px 0;
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  margin: 10px 0;
 }
 h3 {
-    font-size: 24px;
+  font-size: 24px;
 }
 body,
 html {
-    height: 100%;
-    color: #777;
-    line-height: 1.8;
+  height: 100%;
+  color: #777;
+  line-height: 1.8;
 }
 .mvc-padding-16 {
-    padding-top: 16px !important;
-    padding-bottom: 16px !important;
+  padding-top: 16px !important;
+  padding-bottom: 16px !important;
 }
 .mvc-padding-64 {
-    padding-top: 64px !important;
-    padding-bottom: 64px !important;
+  padding-top: 64px !important;
+  padding-bottom: 64px !important;
 }
 .mvc-display-container {
-    position: relative;
+  position: relative;
 }
 .mvc-display-middle {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
-.mvc-black, .mvc-hover-black:hover {
-    color: #fff !important;
-    background-color: #000 !important;
+.mvc-black,
+.mvc-hover-black:hover {
+  color: #fff !important;
+  background-color: #000 !important;
 }
 .mvc-wide {
-    letter-spacing: 10px;
+  letter-spacing: 10px;
 }
-.mvc-black, .mvc-hover-black:hover {
-    color: #fff !important;
+.mvc-black,
+.mvc-hover-black:hover {
+  color: #fff !important;
 }
 .mvc-center {
-    text-align: center !important;
+  text-align: center !important;
 }
 .mvc-padding-large {
-    padding: 12px 24px !important;
+  padding: 12px 24px !important;
 }
 .mvc-xlarge {
-    font-size: 24px !important;
+  font-size: 24px !important;
 }
 .mvc-container {
-    padding: 33.01em 167px;
+  padding: 33.01em 167px;
 }
 .mvc-container-img {
-    display: flex;
-    align-items: stretch;
-    justify-content:space-evenly;
+  display: flex;
+  align-items: stretch;
+  justify-content: space-evenly;
 }
 .mvc-img {
-    width: 250px;
+  width: 250px;
 }
 .bgimg-1,
-.bgimg-2{
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.bgimg-2 {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-
 .bgimg-1 {
-    background-image: url("/images/hedgehog.jpg");
-    min-height: 100%;
+  background-image: url("/images/hedgehog.jpg");
+  min-height: 100%;
 }
 
 .bgimg-2 {
-    background-image: url("/images/lights.jpg");
-    min-height: 400px;
+  background-image: url("/images/lights.jpg");
+  min-height: 400px;
 }
 
 .mvc-wide {
-    letter-spacing: 10px;
+  letter-spacing: 10px;
 }
 .mvc-hover-opacity {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .mvc-button:hover {
-    color: #000 !important;
-    background-color: #ccc !important;
+  color: #000 !important;
+  background-color: #ccc !important;
 }
 
 .mvc-bar .mvc-button {
-    white-space: normal;
+  white-space: normal;
 }
 
 .mvc-bar .mvc-bar-item {
-    padding: 8px 16px;
-    float: left;
-    width: auto;
-    border: none;
-    display: block;
-    outline: 0;
+  padding: 8px 16px;
+  float: left;
+  width: auto;
+  border: none;
+  display: block;
+  outline: 0;
 }
 
 @media only screen and (max-device-width: 1600px) {
-    .bgimg-1,
-    .bgimg-2,
-    .bgimg-3 {
+  .bgimg-1,
+  .bgimg-2,
+  .bgimg-3 {
     background-attachment: scroll;
     min-height: 400px;
-    }
+  }
+}
+
+.profiles {
+  text-transform: capitalize;
+  font-size: 1.2rem;
+  color: black;
 }
