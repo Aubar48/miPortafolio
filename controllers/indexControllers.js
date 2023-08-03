@@ -1,8 +1,10 @@
 module.exports = {
+    /* function flecha agregada por el profe*/
     index: (req, res) => {
-        return res.render('index', { title: 'Comisión21' });
+        return res.render('index');
     },
+    /* function por defecto*/
     about: function (req, res, next) {
-        res.render('about', { title: 'Express' });
+        res.render('about');
     },
 }

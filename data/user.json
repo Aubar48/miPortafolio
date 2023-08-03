@@ -1,0 +1,34 @@
+[
+    {
+    "id":1,
+    "name":"Nahuel",
+    "age": 30,
+    "married":false
+    },
+    {
+    "id":2,
+    "name":"Gaston",
+    "age":31,
+    "cmarried":true
+    },
+    {
+    "id":3,
+    "name":"Wilson",
+    "age":36,
+    "married":true
+    },
+    {
+    "id":4,
+    "name":"Ismael",
+    "age":19,
+    "married":true
+    },
+    {
+    "id":5,
+    "name":"Jorgito",
+    "age":38,
+    "married":false
+    }
+
+
+]
